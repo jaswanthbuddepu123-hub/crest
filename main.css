@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#background-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1; 
+    }
+
+
+
+.logo_heading{
+    font-family: "Dancing Script";
+    color: #C1856D;
+    font-weight: 800;
+}
+.button{
+    background-color: transparent;
+    text-align: center;
+    color: azure;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+.button:hover{
+    background-color: #4F200D;
+    transform: scale(1.1);
+    transform: translate(10,10);
+
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding: 10px;
+    
+
+}
+.span_section{
+    font-size: 25px;
+    font-family: "Caveat";
+    font-weight: 800;
+
+}
+.bg-container_2{
+    background-image: url("/footwear-1838767_1920.jpg");
+    height: 100vh;
+    background-size: cover;
+    margin: 0px;
+   
+}
+.section_2{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+
+
+}
+.heading{
+    color: #E5E5CB;
+    font-family: "Bree Siref";
+    font-style: oblique
+
+}
+.headding_span{
+    font-family: "Lobster";
+    font-size: 20px;
+}
+.image-container-1{
+    background-color: #F5D2D2;
+    
+    height: 70vh;
+    width: 30vw;
+    margin: 20px;
+    border-radius: 20px ;
+    margin-top: 50px;
+    overflow: 0;
+    transition: all 1s ease-in-out 0s;
+     
+
+}
+.image-container-1:hover{
+    transform: scale(1.1);
+    transform: translate(10,10);
+
+
+}
+.image-container-2{
+    background-color: #ffffff;
+   
+    background-size: cover;
+    height: 70vh;
+    width: 30vw;
+    margin: 20px;
+    border-radius: 20px ;
+    margin-top: 50px;
+    overflow: 0;
+    transition: all 1s ease-in-out 0s;
+     
+
+}
+.image-container-2:hover{
+    transform: scale(1.1);
+    transform: translate(10,10);
+
+
+}
+
+.image-container-3{
+    background-color: #A0937D;
+    
+    background-size: cover;
+    height: 70vh;
+    width: 30vw;
+    margin: 20px;
+    border-radius: 20px ;
+    margin-top: 50px;
+    overflow: 0;
+    transition: all 1s ease-in-out 0s;
+     
+
+}
+.image-container-3:hover{
+    transform: scale(1.1);
+    transform: translate(10,10);
+
+
+}
+.image{
+    height: 60vh;
+    width: 30vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.section_two_heading{
+    font-size: 30px;
+    font-family: "Audiowide";
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.container_ladies{
+    /* background-image: url("/young-woman-beautiful-dress.jpg"); */
+    /* height: 100vh; */
+    width: 180vw;
+    background-color: #ffffff;
+    background-size: cover;
+}
+.container_ladies-1{
+    /* background-image: url("/young-woman-beautiful-dress.jpg"); */
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #ffffff;
+    background-size: cover;
+}
+.section-categiries{
+    background-color: #ffffff;
+    height: 15vh;
+    width: 20vw;
+   
+}
+.image-ladies{
+    height: 40vh;
+    width: 25vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+/* .image-ladies:hover{
+
+     transform: scale(1.1);
+    transform: translate(10,10);
+
+} */
+.button_back{
+    background-color: #D6BD98;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+
+}
+.item_container{
+    height: 50vh;
+    width: 25vw;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 1s ease 0s;
+
+}
+.item_container:hover{
+
+     transform: scale(1.1);
+    transform: translate(10,10);
+    
+
+}
+body{
+    margin: 0px;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.container-contact {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.product-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.product-info h3 {
+    margin: 0;
+}
+
+.purchase-form label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+.purchase-form input,
+.purchase-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-form textarea {
+    height: 80px;
+}
+
+button {
+    
+    margin-top: 20px;
+    padding: 12px;
+    background: #0a8fdd;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0672b6;
+}
+.image_last{
+    
+    height: 20vh;
+    width: 20vw;
+    
+
+}
